@@ -5,4 +5,7 @@ import {longestWord} from "./Easy/longestWord.js";
 // console.log(longestWord('fun!! &time **deneme123'));
 
 import {firstFactorial} from "./Easy/firstFactorial.js";
-console.log(firstFactorial(5));
+// console.log(firstFactorial(5));
+
+import {firstReverse} from "./Easy/firstReverse.js";
+console.log(firstReverse("hello world"));
