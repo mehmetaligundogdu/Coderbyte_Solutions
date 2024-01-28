@@ -14,4 +14,7 @@ import { findIntersection } from "./Easy/findIntersection.js";
 //console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
 
 import { questionsMarks } from "./Easy/questionsMarks.js";
-console.log(questionsMarks("arrb6???4xxbl5???eee5"));
+//console.log(questionsMarks("arrb6???4xxbl5???eee5"));
+
+import { letterChanges } from "./Easy/letterChanges.js";
+console.log(letterChanges("Mehmet Ali"));
