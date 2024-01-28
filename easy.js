@@ -17,4 +17,7 @@ import { questionsMarks } from "./Easy/questionsMarks.js";
 //console.log(questionsMarks("arrb6???4xxbl5???eee5"));
 
 import { letterChanges } from "./Easy/letterChanges.js";
-console.log(letterChanges("Mehmet Ali"));
+//console.log(letterChanges("Mehmet Ali"));
+
+import { letterCapitalize } from "./Easy/letterCappitalize.js";
+console.log(letterCapitalize("hello world"));
