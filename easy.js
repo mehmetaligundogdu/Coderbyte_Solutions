@@ -1,14 +1,17 @@
 import { userValidation } from "./Easy/userValidation.js";
 // console.log(userValidation("u__hello_world123"));
 
-import {longestWord} from "./Easy/longestWord.js";
+import { longestWord } from "./Easy/longestWord.js";
 // console.log(longestWord('fun!! &time **deneme123'));
 
-import {firstFactorial} from "./Easy/firstFactorial.js";
+import { firstFactorial } from "./Easy/firstFactorial.js";
 // console.log(firstFactorial(5));
 
-import {firstReverse} from "./Easy/firstReverse.js";
-// console.log(firstReverse("hello world"));
+import { firstReverse } from "./Easy/firstReverse.js";
+//console.log(firstReverse("hello world 123"));
 
 import { findIntersection } from "./Easy/findIntersection.js";
-console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
+//console.log(findIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
+
+import { questionsMarks } from "./Easy/questionsMarks.js";
+console.log(questionsMarks("arrb6???4xxbl5???eee5"));

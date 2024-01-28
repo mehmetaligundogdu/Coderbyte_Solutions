@@ -1,9 +1,8 @@
-export const firstReverse=(str) => {
-    str=str.split("").reverse().join("");
+export const firstReverse = (str) => {
+  str = str.split("").reverse().join("");
 
-    return str
-}
-
+  return str;
+};
 
 //FIRST REVERSE
 /*

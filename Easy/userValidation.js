@@ -1,17 +1,16 @@
 export const userValidation = (str) => {
-    if(
-        str.length>=4 && str.length<=25 &&
-        (/[a-zA-Z]/).test(str[0])&&
-        (/^\w+$/).test(str)&&
-        (/[a-zA-Z0-9]/).test(str.slice(-1))
-    ){
-        return true;
-    }
-    else{
-        return false;
-    }
-}
-
+  if (
+    str.length >= 4 &&
+    str.length <= 25 &&
+    /[a-zA-Z]/.test(str[0]) &&
+    /^\w+$/.test(str) &&
+    /[a-zA-Z0-9]/.test(str.slice(-1))
+  ) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 //USER VALIDATION//
 /*

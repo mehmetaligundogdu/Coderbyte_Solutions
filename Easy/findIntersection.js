@@ -1,20 +1,19 @@
-export const findIntersection=(strArr) => {
-    let intersection=[];
-    let küme1=strArr[0].replace(/\s/g,"").split(',')
-    let küme2=strArr[1].replace(/\s/g,"").split(',')
+export const findIntersection = (strArr) => {
+  let intersection = [];
+  let küme1 = strArr[0].replace(/\s/g, "").split(","); //regEx ile boşlukları sileriz. .split() ile virgüllerden ayırırız.
+  let küme2 = strArr[1].replace(/\s/g, "").split(",");
 
-    küme2.forEach((item) => {
-        if(küme1.includes(item)){
-            intersection.push(item)
-        }
-    })
-    if(intersection.length===0){
-        return false
-    }else{
-        return intersection.toString()
+  küme2.forEach((item) => {
+    if (küme1.includes(item)) {
+      intersection.push(item);
     }
-}
-
+  });
+  if (intersection.length === 0) {
+    return false;
+  } else {
+    return intersection.toString();
+  }
+};
 
 //FIND INTERSECTION
 
