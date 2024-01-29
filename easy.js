@@ -26,4 +26,7 @@ import { simpleSymbol } from "./Easy/simpleSymbol.js";
 //console.log(simpleSymbol("++D+===+c++==+a+"));
 
 import { timeConvert } from "./Easy/timeConvert.js";
-console.log(timeConvert(2110));
+//console.log(timeConvert(2110));
+
+import { alphabetSoup } from "./Easy/alphabetSoup.js";
+console.log(alphabetSoup("hello js"));
