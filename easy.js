@@ -20,4 +20,10 @@ import { letterChanges } from "./Easy/letterChanges.js";
 //console.log(letterChanges("Mehmet Ali"));
 
 import { letterCapitalize } from "./Easy/letterCappitalize.js";
-console.log(letterCapitalize("hello world"));
+//console.log(letterCapitalize("hel_lo ?*world"));
+
+import { simpleSymbol } from "./Easy/simpleSymbol.js";
+//console.log(simpleSymbol("++D+===+c++==+a+"));
+
+import { timeConvert } from "./Easy/timeConvert.js";
+console.log(timeConvert(2110));
