@@ -29,4 +29,7 @@ import { timeConvert } from "./Easy/timeConvert.js";
 //console.log(timeConvert(2110));
 
 import { alphabetSoup } from "./Easy/alphabetSoup.js";
-console.log(alphabetSoup("hello js"));
+//console.log(alphabetSoup("hello js"));
+
+import { abCheck } from "./Easy/abCheck.js";
+console.log(abCheck("lane borrowed"));
