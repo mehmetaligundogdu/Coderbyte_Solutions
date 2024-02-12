@@ -2,7 +2,7 @@ export const letterChanges = (str) => {
   let newStr = str
     .replace(/[^a-zA-Z]/g, "")
     .toLowerCase()
-    .replace(/[a-z]/gi, (char) => {
+    .replace(/[a-z]/g, (char) => {
       if (char === "z") {
         return "a";
       } else {

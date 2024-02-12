@@ -1,39 +1,16 @@
 export const simpleSymbol = (str) => {
-  let newStr = str.toLowerCase().split("");
-  for (let i = 0; i < newStr.length; i++) {
-    if (newStr[i] >= "a" && newStr[i] <= "z") {
-      if (i === 0 || i === newStr.length) {
-        return false;
+  let arr = str.toLowerCase().split("");
+  let controllArr = [];
+  arr.forEach((e) => {
+    if (/[a-zA-Z]/.test(e)) {
+      if (arr[arr.indexOf(e) - 1] === "+" && arr[arr.indexOf(e) + 1] === "+") {
+        controllArr.push(1);
+      } else {
+        controllArr.push(0);
       }
     }
-    {
-      if (newStr[i - 1] !== "+" || newStr[i + 1] !== "+") {
-        return false;
-      }
-    }
-  }
-  return true;
+  });
+  return controllArr.includes(0) ? false : true;
 };
-// function simpleSymbol(str) {
-//   let newStr = str.toLowerCase().split("");
-//   for (let i = 0; i < newStr.length; i++) {
-//     if (newStr[i] >= "a" && newStr[i] <= "z") {
-//       if (i === 0 || i === newStr.length) {
-//         return false;
-//       }
 
-//       if (newStr[i - 1] !== "+" || newStr[i + 1] !== "+") {
-//         return false;
-//       }
-//     }
-//   }
-
-//   return true;
-// }
-
-// Using the JavaScript language, have the function SimpleSymbols(str) take the str    *
-// *  parameter being passed and determine if it is an acceptable sequence by either      *
-// *  returning the string true or false. The str parameter will be composed of + and =   *
-// *  symbols with several letters between them (ie. ++d+===+c++==a) and for the string   *
-// *  to be true each letter must be surrounded by a + symbol. So the string to the left  *
-// *  would be false. The string will not be empty and will have at least one letter.
+// Using the JavaScript language, have the function SimpleSymbols(str) take the str  parameter being passed and determine if it is an acceptable sequence by either  returning the string true or false. The str parameter will be composed of + and = symbols with several letters between them (ie. ++d+===+c++==a) and for the string   to be true each letter must be surrounded by a + symbol. So the string to the left  would be false. The string will not be empty and will have at least one letter.

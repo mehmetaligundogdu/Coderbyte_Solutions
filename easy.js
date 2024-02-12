@@ -2,7 +2,7 @@ import { userValidation } from "./Easy/userValidation.js";
 // console.log(userValidation("u__hello_world123"));
 
 import { longestWord } from "./Easy/longestWord.js";
-// console.log(longestWord('fun!! &time **deneme123'));
+//console.log(longestWord("fun!! kasa &time **deneme123"));
 
 import { firstFactorial } from "./Easy/firstFactorial.js";
 // console.log(firstFactorial(5));
@@ -23,7 +23,7 @@ import { letterCapitalize } from "./Easy/letterCappitalize.js";
 //console.log(letterCapitalize("hel_lo ?*world"));
 
 import { simpleSymbol } from "./Easy/simpleSymbol.js";
-//console.log(simpleSymbol("++D+===+c++==+a+"));
+console.log(simpleSymbol("++D+===+c++==+a+"));
 
 import { timeConvert } from "./Easy/timeConvert.js";
 //console.log(timeConvert(2110));
@@ -32,4 +32,4 @@ import { alphabetSoup } from "./Easy/alphabetSoup.js";
 //console.log(alphabetSoup("hello js"));
 
 import { abCheck } from "./Easy/abCheck.js";
-console.log(abCheck("lane borrowed"));
+//console.log(abCheck("lane borrowed"));

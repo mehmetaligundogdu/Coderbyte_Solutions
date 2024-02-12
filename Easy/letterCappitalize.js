@@ -7,6 +7,4 @@ export const letterCapitalize = (str) => {
   return capStr.join(" ");
 };
 
-// Using the JavaScript language, have the function LetterCapitalize(str) take the     *
-// *  str parameter being passed and capitalize the first letter of each word. Words      *
-// *  will be separated by only one space.
+// Using the JavaScript language, have the function LetterCapitalize(str) take the str parameter being passed and capitalize the first letter of each word. Words will be separated by only one space.
