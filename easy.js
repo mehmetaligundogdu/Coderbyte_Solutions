@@ -23,7 +23,7 @@ import { letterCapitalize } from "./Easy/letterCappitalize.js";
 //console.log(letterCapitalize("hel_lo ?*world"));
 
 import { simpleSymbol } from "./Easy/simpleSymbol.js";
-console.log(simpleSymbol("++D+===+c++==+a+"));
+//console.log(simpleSymbol("++D+===+c++==+a+"));
 
 import { timeConvert } from "./Easy/timeConvert.js";
 //console.log(timeConvert(2110));
@@ -33,3 +33,6 @@ import { alphabetSoup } from "./Easy/alphabetSoup.js";
 
 import { abCheck } from "./Easy/abCheck.js";
 //console.log(abCheck("lane borrowed"));
+
+import { exOh } from "./Easy/exOh.js";
+console.log(exOh("xooxxxxoooxxooxo"));
