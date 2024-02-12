@@ -38,4 +38,7 @@ import { exOh } from "./Easy/exOh.js";
 //console.log(exOh("xooxxxxoooxxooxo"));
 
 import { wordCount } from "./Easy/wordCount.js";
-console.log(wordCount("Never eat shredded wheat"));
+//console.log(wordCount("Never eat shredded wheat"));
+
+import { vowelCount } from "./Easy/vowelCount.js";
+console.log(vowelCount("All cows eat grass and moo"));
