@@ -41,4 +41,7 @@ import { wordCount } from "./Easy/wordCount.js";
 //console.log(wordCount("Never eat shredded wheat"));
 
 import { vowelCount } from "./Easy/vowelCount.js";
-console.log(vowelCount("All cows eat grass and moo"));
+//console.log(vowelCount("All cows eat grass and moo"));
+
+import { isPalindrome } from "./Easy/isPalindrome.js";
+console.log(isPalindrome("racecar"));
