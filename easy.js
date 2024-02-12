@@ -35,4 +35,7 @@ import { abCheck } from "./Easy/abCheck.js";
 //console.log(abCheck("lane borrowed"));
 
 import { exOh } from "./Easy/exOh.js";
-console.log(exOh("xooxxxxoooxxooxo"));
+//console.log(exOh("xooxxxxoooxxooxo"));
+
+import { wordCount } from "./Easy/wordCount.js";
+console.log(wordCount("Never eat shredded wheat"));
